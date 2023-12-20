@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TagCell" id="gTV-IL-0wX" customClass="TagCell" customModule="MainPage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="262" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="262" height="164"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcJ-bd-1Wq">
+                        <rect key="frame" x="16" y="8" width="230" height="148"/>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="9"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kcJ-bd-1Wq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="AVT-Oc-EC7"/>
+                <constraint firstItem="kcJ-bd-1Wq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="JhJ-dA-RvF"/>
+                <constraint firstAttribute="bottom" secondItem="kcJ-bd-1Wq" secondAttribute="bottom" constant="8" id="KgC-kO-eTL"/>
+                <constraint firstAttribute="trailing" secondItem="kcJ-bd-1Wq" secondAttribute="trailing" constant="16" id="jSo-W1-03F"/>
+            </constraints>
+            <size key="customSize" width="262" height="164"/>
+            <connections>
+                <outlet property="titleLabel" destination="kcJ-bd-1Wq" id="UVk-fd-dbl"/>
+            </connections>
+            <point key="canvasLocation" x="291.60305343511448" y="28.87323943661972"/>
+        </collectionViewCell>
+    </objects>
+</document>

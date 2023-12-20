@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Features"
+      name = "Features">
+      <FileRef
+         location = "group:../MainPage/MainPage.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:../UIComponents/UIComponents.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../AppResources/AppResources.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Core"
+      name = "Core">
+      <FileRef
+         location = "group:Core.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:CaseStudy_MainPageDemo/CaseStudy_MainPageDemo.xcodeproj">
+   </FileRef>
+</Workspace>
